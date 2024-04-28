@@ -11,7 +11,7 @@
 
     <ContentPage.Resources>
         <ResourceDictionary>
-            <local:ValueToValueConverter x:Key="ValueToValueConverter"/>
+            <local:ValueToSummaryValueConverter x:Key="ValueToValueConverter"/>
             <local:ValueToColorConverter x:Key="ValueToColorConverter"/>
             <local:ValueToImageConvertor x:Key="ValueToImageConverter"></local:ValueToImageConvertor>
             <DataTemplate x:Key="dataLabel">
