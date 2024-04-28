@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataLabelTemplate
 {
-    public class ValueToValueConverter : IValueConverter
+    public class ValueToSummaryValueConverter : IValueConverter
     {
         private double sumOfValues = 0;
         public object? Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
@@ -31,7 +31,7 @@ namespace DataLabelTemplate
 
     public class ValueToColorConverter : IValueConverter
     {
-        [Obsolete]
+        
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             if (value == null || !(value is double))
