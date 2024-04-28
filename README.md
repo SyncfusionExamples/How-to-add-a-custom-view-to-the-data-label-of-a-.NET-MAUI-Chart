@@ -7,31 +7,21 @@ In .NET MAUI applications, data visualization plays a crucial role in presenting
 
 One common requirement in charting applications is the ability to customize the appearance of data labels. This sample demonstrates how to add a custom view to the data label of a .NET MAUI Cartesian Chart. The custom view includes a label displaying the value of the data point and an image indicating the trend based on the value.
 
-## Features
+## Defining the Custom View
 
-- Customizing data labels with a custom view containing a label and an image.
-- Dynamically changing text color and image based on data point values.
-- Summing up data point values in the label using a converter.
+We create a DataTemplate named “dataLabel”, consisting of a StackLayout containing a Label. This label displays the value of the data point and utilizes a converter to dynamically change its color based on the value. And the Image control displays the respective image based on the data point and utilized a convertor to dynamically change its image based on the value.
 
-## Getting Started
+## Implementing the Value Converter
 
-To run this sample locally, follow these steps:
+The **ValueToColorConverter** and **ValueToImageConverter** classes are implemented to handle the logic of changing text color and displaying icons based on the value, respectively. These converters are applied to the TextColor and Source properties within the data label template. The **ValueToSummaryValueConverter** class is used to return the sum of the data point values, with the sum accumulating as each data point passes through this converter.
 
-1. Clone this repository to your local machine.
-2. Open the solution in Visual Studio.
-3. Ensure you have the necessary dependencies installed, including .NET MAUI and Syncfusion controls.
-4. Build and run the application.
+## Integrating the Custom View with the Chart
+
+Incorporate the custom view into your chart by assigning the LabelTemplate property of the series to the defined DataTemplate. Ensure that the **ShowDataLabels** property is set to **True** to display the data labels.
 
 ## Output
 
 ![image](https://github.com/SyncfusionExamples/How-to-add-a-custom-view-to-the-data-label-of-a-.NET-MAUI-Chart/assets/113962276/d4f7b597-bc73-4e93-8dc3-9e34d724ff10)
-
-
-## Usage
-
-You can use this sample as a reference to implement custom data label views in your .NET MAUI applications. The provided code snippets demonstrate how to define a custom view in XAML, implement value converters in C#, and integrate the custom view with the Cartesian Chart control.
-
-Feel free to customize the code according to your specific requirements and data visualization needs.
 
 For a step by step procedure, refer to the Knowledge base : [how to add a custom view to the data label of a .NET MAUI Cartesian Chart?]()
 
