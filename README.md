@@ -1,6 +1,6 @@
 # How to add a custom view to the data label of a .NET MAUI Chart
 
-This repository contains a sample project demonstrating how to add a custom view to the data label of a .NET MAUI Cartesian Chart using Syncfusion controls.
+This repository contains a sample project demonstrating how to add a custom view to the data label of a .NET MAUI Chart using Syncfusion controls.
 
 **Syncfusion Chart Control**
 
