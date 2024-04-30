@@ -2,21 +2,19 @@
 
 This repository contains a sample project demonstrating how to add a custom view to the data label of a .NET MAUI Cartesian Chart using Syncfusion controls.
 
-## Overview
+**Syncfusion Chart Control**
 
-In .NET MAUI applications, data visualization plays a crucial role in presenting information effectively to users. Syncfusion provides powerful controls for .NET MAUI, including the Cartesian Chart control, which allows developers to create interactive and visually appealing charts.
+The [.NET MAUI Charts](https://www.syncfusion.com/maui-controls/maui-cartesian-charts) provides a perfect way to visualize data with a high level of user involvement that focuses on development, productivity, and simplicity of use. Chart also provides a wide variety of charting features that can be used to visualize large quantities of data, as well as flexibility in data binding and user customization.
 
-One common requirement in charting applications is the ability to customize the appearance of data labels. This sample demonstrates how to add a custom view to the data label of a .NET MAUI Chart. The custom view includes a label displaying the value of the data point and an image indicating the trend based on the value.
-
-## Defining the Custom View
+**Defining the Custom View**
 
 Create a DataTemplate for the data label, which typically includes a StackLayout containing a Label to display the value of the data point and an Image to indicate the trend. Customize the appearance of the label and image as needed.
 
-## Implementing the Value Converter
+**Implementing the Value Converter**
 
 Utilize value converters to dynamically adjust the appearance of the label and image based on the data point's value. For example, you might use a converter to change the text color of the label or to select a specific icon for the image based on the data value.
 
-## Integrating the Custom View with the Chart
+**Integrating the Custom View with the Chart**
 
 Assign the DataTemplate you created to the LabelTemplate property of the series within your chart. Ensure that the ShowDataLabels property is set to True to enable the display of data labels.
 
