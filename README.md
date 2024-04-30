@@ -1,4 +1,5 @@
 # How to add a custom view to the data label of a .NET MAUI Chart
+
 This repository contains a sample project demonstrating how to add a custom view to the data label of a .NET MAUI Cartesian Chart using Syncfusion controls.
 
 ## Overview
@@ -17,15 +18,17 @@ Utilize value converters to dynamically adjust the appearance of the label and i
 
 ## Integrating the Custom View with the Chart
 
- Assign the DataTemplate you created to the LabelTemplate property of the series within your chart. Ensure that the ShowDataLabels property is set to True to enable the display of data labels.
+Assign the DataTemplate you created to the LabelTemplate property of the series within your chart. Ensure that the ShowDataLabels property is set to True to enable the display of data labels.
 
 ## Output
 
 ![image](https://github.com/SyncfusionExamples/How-to-add-a-custom-view-to-the-data-label-of-a-.NET-MAUI-Chart/assets/113962276/d4f7b597-bc73-4e93-8dc3-9e34d724ff10)
 
-For a step by step procedure, refer to the Knowledge base : [how to add a custom view to the data label of a .NET MAUI Cartesian Chart?]()
+For a step-by-step procedure, refer to the Knowledge base: [how to add a custom view to the data label of a .NET MAUI Cartesian Chart?](#)
 
 ## Troubleshooting
+
 **Path too long exception**
 
-If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
+If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
+
