@@ -9,15 +9,15 @@ One common requirement in charting applications is the ability to customize the 
 
 ## Defining the Custom View
 
-We create a DataTemplate named “dataLabel”, consisting of a StackLayout containing a Label. This label displays the value of the data point and utilizes a converter to dynamically change its color based on the value. And the Image control displays the respective image based on the data point and utilized a convertor to dynamically change its image based on the value.
+Create a DataTemplate for the data label, which typically includes a StackLayout containing a Label to display the value of the data point and an Image to indicate the trend. Customize the appearance of the label and image as needed.
 
 ## Implementing the Value Converter
 
-The **ValueToColorConverter** and **ValueToImageConverter** classes are implemented to handle the logic of changing text color and displaying icons based on the value, respectively. These converters are applied to the TextColor and Source properties within the data label template. The **ValueToSummaryValueConverter** class is used to return the sum of the data point values, with the sum accumulating as each data point passes through this converter.
+Utilize value converters to dynamically adjust the appearance of the label and image based on the data point's value. For example, you might use a converter to change the text color of the label or to select a specific icon for the image based on the data value.
 
 ## Integrating the Custom View with the Chart
 
-Incorporate the custom view into your chart by assigning the LabelTemplate property of the series to the defined DataTemplate. Ensure that the **ShowDataLabels** property is set to **True** to display the data labels.
+ Assign the DataTemplate you created to the LabelTemplate property of the series within your chart. Ensure that the ShowDataLabels property is set to True to enable the display of data labels.
 
 ## Output
 
