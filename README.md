@@ -1,6 +1,6 @@
-# How to add a custom view to the data label of a .NET MAUI Chart
+# How to add a custom view to the data label of a .NET MAUI Toolkit
 
-This repository contains a sample project demonstrating how to add a custom view to the data label of a .NET MAUI Chart using Syncfusion controls.
+This repository contains a sample project demonstrating how to add a custom view to the data label of a .NET MAUI Toolkit using Syncfusion controls.
 
 **Syncfusion Chart Control**
 
@@ -16,7 +16,7 @@ Utilize value converters to dynamically adjust the appearance of the label and i
 
 **Integrating the Custom View with the Chart**
 
-Assign the DataTemplate you created to the LabelTemplate property of the series within your chart. Ensure that the ShowDataLabels property is set to True to enable the display of data labels.
+Assign the DataTemplate you created to the [LabelTemplate](https://help.syncfusion.com/cr/maui-toolkit/Syncfusion.Maui.Toolkit.Charts.ChartSeries.html#Syncfusion_Maui_Toolkit_Charts_ChartSeries_LabelTemplate) property of the series within your chart. Ensure that the [ShowDataLabels](https://help.syncfusion.com/cr/maui-toolkit/Syncfusion.Maui.Toolkit.Charts.ChartSeries.html#Syncfusion_Maui_Toolkit_Charts_ChartSeries_ShowDataLabels) property is set to True to enable the display of data labels.
 
 ## Output
 
