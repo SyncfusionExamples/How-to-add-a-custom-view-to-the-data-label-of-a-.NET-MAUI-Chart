@@ -22,7 +22,7 @@ Assign the DataTemplate you created to the [LabelTemplate](https://help.syncfusi
 
 ![image](https://github.com/SyncfusionExamples/How-to-add-a-custom-view-to-the-data-label-of-a-.NET-MAUI-Chart/assets/113962276/d4f7b597-bc73-4e93-8dc3-9e34d724ff10)
 
-For a step-by-step procedure, refer to the Knowledge base: [how to add a custom view to the data label of a .NET MAUI Cartesian Chart?](#)
+For a step-by-step procedure, refer to the Knowledge base: [how to add a custom view to the data label of a .NET MAUI Cartesian Chart?](https://support.syncfusion.com/kb/article/15873/how-to-add-a-custom-view-to-the-data-label-of-a-net-maui-toolkit-cartesian-charts)
 
 ## Troubleshooting
 
